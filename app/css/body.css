@@ -1,7 +1,7 @@
 body {
 	background: hsl(0,0%,5%);
   color: hsl(0,0%,20%);
-  font-family: sans-serif;
+  font-family: system-ui, sans-serif;
 
   display: flex;
   align-items: center;
@@ -13,5 +13,6 @@ body {
 
   & > h1 {
     font-weight: lighter;
+    font-size: 7vw;
   }
 }
