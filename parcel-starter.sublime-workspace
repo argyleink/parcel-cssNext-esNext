@@ -11,7 +11,16 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 345,
+				"buffer_size": 445,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/css/body.css",
+			"settings":
+			{
+				"buffer_size": 273,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -20,7 +29,7 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 68,
+				"buffer_size": 86,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -29,7 +38,7 @@
 			"file": "app/js/home.js",
 			"settings":
 			{
-				"buffer_size": 20,
+				"buffer_size": 135,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "console.log('works')"
@@ -43,8 +52,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 357.0,
-		"last_filter": "",
+		"height": 341.0,
+		"last_filter": "insta",
 		"selected_items":
 		[
 			[
@@ -52,23 +61,23 @@
 				"Package Control: Install Package"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
+				"instal",
+				"Package Control: Install Package"
 			],
 			[
-				"list",
-				"Package Control: List Packages"
+				"remove",
+				"Package Control: Remove Package"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
+				"list",
+				"Package Control: List Packages"
 			]
 		],
-		"width": 446.0
+		"width": 430.0
 	},
 	"console":
 	{
@@ -90,10 +99,17 @@
 	"expanded_folders":
 	[
 		"/Users/argyle/dev/playground/personal-parcel-starter",
-		"/Users/argyle/dev/playground/personal-parcel-starter/app"
+		"/Users/argyle/dev/playground/personal-parcel-starter/app",
+		"/Users/argyle/dev/playground/personal-parcel-starter/app/js"
 	],
 	"file_history":
 	[
+		"/Users/argyle/Downloads/CreditCard4.csv",
+		"/Users/argyle/dev/playground/personal-parcel-starter/app/css/body.css",
+		"/Users/argyle/dev/playground/personal-parcel-starter/.babelrc",
+		"/Users/argyle/dev/playground/personal-parcel-starter/.postcssrc",
+		"/Users/argyle/dev/playground/personal-parcel-starter/app/css/body.styl",
+		"/Users/argyle/dev/playground/personal-parcel-starter/app/js/utilities/shorthands.js",
 		"/Users/argyle/dev/playground/jade-cssnext-babel-webpacked/jade-cssnext-project.sublime-project",
 		"/Users/argyle/dev/playground/jade-cssnext-babel-webpacked/webpack.config.js",
 		"/Users/argyle/Library/Application Support/Sublime Text 3/Installed Packages/Alignment.sublime-package",
@@ -101,7 +117,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -115,6 +131,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			",\"*\",\"\"",
+			"'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -141,58 +159,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 345,
+						"buffer_size": 445,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								233,
-								233
+								267,
+								267
 							]
 						],
 						"settings":
 						{
-							"git_gutter_is_enabled": false,
+							"git_gutter_is_enabled": true,
+							"history_list_is_closing": true,
 							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (NPM).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "app/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 68,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30,
-								30
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -202,27 +186,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/js/home.js",
+					"buffer": 1,
+					"file": "app/css/body.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20,
+						"buffer_size": 273,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20,
-								20
+								273,
+								273
 							]
 						],
 						"settings":
 						{
-							"auto_name": "console.log('works')",
-							"git_gutter_is_enabled": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -232,11 +217,76 @@
 					"type": "text"
 				}
 			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/js/home.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"auto_name": "console.log('works')",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -280,7 +330,7 @@
 	"project": "parcel-starter.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -289,6 +339,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"body",
+				"app/css/body.css"
+			]
 		],
 		"width": 0.0
 	},
@@ -300,7 +354,11 @@
 		[
 			[
 				"",
-				"~/dev/playground/jade-cssnext-babel-webpacked/jade-cssnext-project.sublime-project"
+				"~/dev/sublime-projects/acey-sandbox.sublime-project"
+			],
+			[
+				"acey",
+				"~/dev/sublime-projects/acey-sandbox.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -322,7 +380,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 176.0,
+	"side_bar_width": 229.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -1,5 +1,8 @@
 import { $ } from './utilities/shorthands'
-import '../css/body.css'
+
+import '../css/vars.css'
+import '../css/typography.css'
+import '../css/button.css'
 
 let foo = async () => console.log('async')
 
