@@ -1,11 +1,13 @@
-body {
-  font-family: 'Google Sans', system-ui;
+body, p {
+  font-family: 'Roboto', system-ui;
   line-height: 1.75;
-  color: var(--brand-grey_dark);
+  color: var(--text-color_body);
 }
 
 h1, h2, h3, h4, h5, h6 { 
+  font-family: 'Google Sans', system-ui;
   font-weight: 400;
+  color: var(--text-color_headline);
   margin-top: 0;
   margin-bottom: 0.5em;
 }
@@ -13,23 +15,32 @@ h1, h2, h3, h4, h5, h6 {
 h1 { 
   font-size: 2.25rem; 
   line-height: 2.75rem;
+
+  opacity: 0;
+  transform: translateX(-5rem);
+  animation: present-myself 0.5s var(--easing-deceleration) forwards;
 }
+
 h2 { 
   font-size: 2rem; 
   line-height: 2.5rem;
 }
+
 h3 { 
   font-size: 1.75rem; 
   line-height: 2.25rem;
 }
+
 h4 { 
   font-size: 1.5rem; 
   line-height: 2rem;
 }
+
 h5 { 
   font-size: 1.375rem; 
   line-height: 1.75rem;
 }
+
 h6 { 
   font-size: 1.125rem; 
   line-height: 1.5rem;

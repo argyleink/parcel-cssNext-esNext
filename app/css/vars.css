@@ -15,14 +15,19 @@
   --brand-grey_light-hover:   hsl(206 6% 90%);
   --brand-grey_dark:          hsl(225 6% 13%);
 
+  --text-color_headline:      var(--brand-grey_dark);
+  --text-color_body:          hsl(206 6% 25%);
+  --text-color_supporting:    hsl(213 5% 39%);
+  --text-color_hint:          hsl(207 5% 52%);
+
   --shadow-color:             hsla(0 0% 0% 15%);
   --depth-1:                  0 2px 2px var(--shadow-color);
   --depth-2:                  0 4px 5px var(--shadow-color);
 
   --border-radius:            0.25rem;
 
-  --animation-easing_standard:     cubic-bezier(0.4, 0.0, 0.2, 1);
-  --animation-easing_deceleration: cubic-bezier(0.0, 0.0, 0.2, 1);
-  --animation-easing_acceleration: cubic-bezier(0.4, 0.0, 1, 1);
-  --animation-easing_sharp:        cubic-bezier(0.4, 0.0, 0.6, 1);
+  --easing-standard:          cubic-bezier(0.4, 0.0, 0.2, 1);
+  --easing-deceleration:      cubic-bezier(0.0, 0.0, 0.2, 1);
+  --easing-acceleration:      cubic-bezier(0.4, 0.0, 1, 1);
+  --easing-sharp:             cubic-bezier(0.4, 0.0, 0.6, 1);
 }
