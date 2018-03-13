@@ -16,6 +16,7 @@
     "parcel-bundler": "^1.6.2",
     "parcel-plugin-pug": "latest",
     "postcss-cssnext": "latest",
-    "postcss-import": "latest"
+    "postcss-import": "latest",
+    "ragrid": "^1.0.5"
   }
 }

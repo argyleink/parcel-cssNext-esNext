@@ -1,2 +1,2 @@
 import { $ } from './utilities/shorthands'
-import { vars, animation, typography, button } from '../css'
+import { animation, typography, button } from '../css'
