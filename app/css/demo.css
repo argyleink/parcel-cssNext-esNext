@@ -1,4 +1,4 @@
-body {
+header {
   min-height: 100vh;
 
   & h1, & button {

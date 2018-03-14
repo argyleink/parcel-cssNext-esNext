@@ -1,0 +1,16 @@
+//- include ../_mixins/link.pug
+include ../_mixins/og-meta.pug
+include ../_mixins/twitter-meta.pug
+
+block config
+  - var pageTitle = 'Parcel Next Starter'
+
+doctype html
+html
+  include ../_partials/head.pug
+
+  block title
+    title= pageTitle
+
+  body
+    block content

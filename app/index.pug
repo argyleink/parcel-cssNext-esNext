@@ -1,12 +1,15 @@
-doctype html
-html
-  head
-    meta(charset='utf8')
-    title Parcel Kit
-  body(grid='rows' vertically-aligned='center' horizontally-aligned='center')
+extends ./_layouts/page.pug
+
+block content
+  header(grid='rows' vertically-aligned='center' horizontally-aligned='center')
     h1 Jade/CSSNext/ESNext
     div
       button(primary) It Works
       button(ghost) Time 2 Work
+      //- +link({
+      //-   text: 'Bolt on GitHub'
+      //- , url:  'https://github.com/argyleink/Bolt'
+      //- , blank: true
+      //- })
 
-    script(src='./js/home.js')
+  script(src='./js/home.js')
