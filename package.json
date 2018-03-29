@@ -13,10 +13,12 @@
   "license": "ISC",
   "dependencies": {
     "babel-preset-env": "latest",
-    "parcel-bundler": "^1.6.2",
-    "parcel-plugin-pug": "latest",
+    "parcel-bundler": "^1.7.0",
     "postcss-cssnext": "latest",
     "postcss-import": "latest",
     "ragrid": "^1.0.5"
+  },
+  "devDependencies": {
+    "pug": "^2.0.3"
   }
 }
