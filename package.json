@@ -13,8 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "babel-preset-env": "latest",
-    "blingblingjs": "^2.0.0",
-    "parcel-bundler": "^1.9.4",
+    "blingblingjs": "^1.0.1",
+    "css": "^2.2.1",
+    "parcel-bundler": "^1.7.1",
     "postcss-cssnext": "latest",
     "postcss-import": "latest",
     "ragrid": "^1.0.5"
