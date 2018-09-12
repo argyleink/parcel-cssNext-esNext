@@ -13,12 +13,12 @@
   "license": "ISC",
   "dependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "latest",
-    "blingblingjs": "^1.0.1",
-    "css": "^2.2.1",
-    "parcel-bundler": "^1.7.1",
+    "babel-preset-env": "^1.7.0",
+    "blingblingjs": "^1.0.2",
+    "css": "^2.2.4",
+    "parcel-bundler": "^1.9.7",
     "postcss-cssnext": "latest",
-    "postcss-import": "latest",
+    "postcss-import": "^12.0.0",
     "ragrid": "^1.0.5"
   },
   "devDependencies": {
