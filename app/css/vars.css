@@ -1,6 +1,7 @@
 :root {
   --brand-blue:               hsl(217 89% 61%);
-  --brand-blue_subdued:       color(hsl(217 89% 61%) lightness(97%));
+  /*--brand-blue_subdued:       color(hsl(217 89% 61%) lightness(97%));*/
+  --brand-blue_subdued:       hsl(217 50% 95%);
   --brand-blue_darker:        hsl(214 82% 51%);
   --brand-yellow:             hsl(45 97% 50%);
   --brand-red:                hsl(5 81% 56%);
